@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <p>Welcome to shared <%= title %></p>
+     <p> Start New Drawing Session </p>
+     <br/>
+     <form action="/drawing/new" method="get">
+        Your Nick Name:
+	<input type="text" name="nickname"/>
+        <input type="submit" value="Go!"/> 
+     </form>
+  </body>
+</html>
